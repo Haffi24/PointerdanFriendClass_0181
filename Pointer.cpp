@@ -40,5 +40,9 @@ int main (){
 
     cout << "Alamat memori a = " << &a << endl;
     cout << "Alamat memori c = " << c << endl;
-  
+    cout << "cetak c = " << *c << endl;
+    c = &b;
+    cout << "Alamat memori c = " << c << endl;
+    cout << "Cetak C = " << *c << endl;
+
 }
