@@ -14,3 +14,9 @@ class staff {
     int nidn;
 
 };
+
+int main (){
+    Dosen Ds;
+    ds.nama = "Giga";
+    ds.tampilNama();
+}
