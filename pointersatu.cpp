@@ -9,3 +9,12 @@ class mahasiswa{
 
     }
 };
+
+
+int main(){
+
+   mahasiswa mhs;
+mhs.nim = 5;
+mhs.showNim ();
+
+}
