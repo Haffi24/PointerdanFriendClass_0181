@@ -17,12 +17,12 @@ class staff {
 
 int main (){
     Dosen Ds;
-    ds.nama = "Giga";
-    ds.tampilNama();
+    Ds.nama = "Giga";
+    Ds.tampilNama();
 
     Dosen &dsref = Ds;
     dsref.nama = "Joko"
-    cout << "Alamat memori = " << &dsref <<endl;
+    cout << "Alamat memori = " << &dsref << endl;
     dsref.tampilNama();
 
     Dosen *pds =&Ds;
@@ -32,12 +32,6 @@ int main (){
 
 
     int a = 5;
-    int b = 3;
-    int *c = &a;
-    *c =9;
-    cout << endl;
-    cout << endl;
-
-    
+   
 
 }
