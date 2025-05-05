@@ -20,10 +20,24 @@ int main (){
     ds.nama = "Giga";
     ds.tampilNama();
 
-    Dosen &dsref = ds;
+    Dosen &dsref = Ds;
     dsref.nama = "Joko"
     cout << "Alamat memori = " << &dsref <<endl;
     dsref.tampilNama();
 
+    Dosen *pds =&Ds;
+    pds->nama = "Reza";
+    cout << "Alamat memori = " << pds << endl;
+    pds->tampilNama();
+
+
+    int a = 5;
+    int b = 3;
+    int *c = &a;
+    *c =9;
+    cout << endl;
+    cout << endl;
+
+    
 
 }
